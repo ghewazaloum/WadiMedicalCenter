@@ -1,0 +1,233 @@
+.DoctorReservedAppoinments{
+    display: flex;
+}
+
+.ScrollableSideBarDiv{
+        border: 1px solid rgba(0, 0, 0, 0.14);
+        width: 85%;
+        margin-left: 7.5%;
+        border-radius: 20px;
+        box-shadow: 2px 1px rgba(0, 0, 0, 0.1);
+        margin-top: 5%;
+        height: 130px;
+        overflow-y: scroll;
+    
+
+}
+.Day{
+
+  margin-left: 89.5%;
+  background-color:#D46ABF;
+  text-align: center;
+  padding: 0.5%;
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFEFEF;
+  border-radius: 86px 1px 1px 1px;
+}  
+.yourResult{
+  margin-top: 45%;
+  color: #291B27;
+  padding-left: 8%;
+  font-size:14px;
+  font-weight:bold ;
+  font-family: Arial;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.25);
+}
+.yourResult4{
+  margin-top: 5%;
+  color: #291B27;
+  padding-left: 8%;
+  font-size:14px;
+  font-weight:bold ;
+  font-family: Arial;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.25);
+}
+.MultiTable{
+
+    margin: 0.5%;
+    border-collapse: separate;
+    border-spacing:0 5px;;
+    border-top: 0px solid black ;
+
+}
+
+
+.DaysHorizonalDiv{
+  margin-top: 5%;
+  height: 13%;
+  max-width: 85%;
+  display: flex;
+  overflow-x: scroll;
+  column-gap: 1px;
+  flex: 100%;
+  position: absolute;
+}
+.DaysHorizonalDiv4{
+  margin-top: 5%;
+  height: 13%;
+  max-width: 100%;
+  display: flex;
+  column-gap: 1px;
+  flex: 100%;
+}
+.DaysHorizonalInnerDiv{
+  pointer-events: fill;
+  margin-left: 2%;
+  height: 100%;
+  min-width: 22%;
+  align-items: center;
+  background-color: #f3a0e2;
+  border-radius: 5px;
+  border:0px solid rgb(255, 255, 255);
+  justify-content: center;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size:14px;
+  font-family: Arial;
+  font-weight: bold;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.25);
+  padding-top: 0.7%;
+  line-height: 30px;
+}
+.DaysHorizonalInnerDiv4{
+  pointer-events: fill;
+  margin-left: 2%;
+  height: 65px;
+  min-width: 22%;
+  align-items: center;
+  background-color: #f3a0e2;
+  border-radius: 5px;
+  border:0px solid rgb(255, 255, 255);
+  justify-content: center;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size:14px;
+  font-family: Arial;
+  font-weight: bold;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.25);
+  padding-top: 0.7%;
+  line-height: 30px;
+}
+.BlackDaysHorizonalInnerDiv{
+  pointer-events: fill;
+  margin-left: 2%;
+  height: 100%;
+  min-width: 22%;
+  align-items: center;
+  background-color: #A3A3A3;
+  border-radius: 5px;
+  border:0px solid rgb(255, 255, 255);
+  justify-content: center;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size:14px;
+  font-family: Arial;
+  font-weight: bold;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.25);
+  padding-top: 0.7%;
+  line-height: 30px;
+}
+.BlackDaysHorizonalInnerDiv4{
+  pointer-events: fill;
+  margin-left: 2%;
+  height: 65px;
+  min-width: 22%;
+  align-items: center;
+  background-color: #A3A3A3;
+  border-radius: 5px;
+  border:0px solid rgb(255, 255, 255);
+  justify-content: center;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size:14px;
+  font-family: Arial;
+  font-weight: bold;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.25);
+  padding-top: 0.7%;
+  line-height: 30px;
+}
+.DaysHorizonalInnerDiv:hover{
+  background-color: #ff00cc;
+}
+.DaysHorizonalInnerDiv4:hover{
+  background-color: #ff00cc;
+}
+.ActivatedDaysHorizonalInnerDiv{
+  margin-left: 2%;
+  height: 100%;
+  min-width: 22%;
+  align-items: center;
+  border-radius: 5px;
+  border:0px solid rgb(255, 255, 255);
+  justify-content: center;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size:14px;
+  font-family: Arial;
+  font-weight: bold;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.25);
+  padding-top: 0.7%;
+  line-height: 30px;
+  background-color: #ff00cc;
+}
+.ActivatedDaysHorizonalInnerDiv4{
+  margin-left: 2%;
+  height: 65px;
+  min-width: 22%;
+  align-items: center;
+  border-radius: 5px;
+  border:0px solid rgb(255, 255, 255);
+  justify-content: center;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size:14px;
+  font-family: Arial;
+  font-weight: bold;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.25);
+  padding-top: 0.7%;
+  line-height: 30px;
+  background-color: #ff00cc;
+}
+
+
+
+
+
+.ActivatedEditButton{
+  margin-left: 50%;
+  background:#7E1E80;
+  border-radius: 26px;
+  border: 0px;
+  height: 35px;
+  width: 70px;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+.ActivatedEditButton a{
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFEFEF;
+  text-decoration: none;
+}
+.ActivatedEditButton:hover{
+background: #ff00d0;
+border: 1px solid #7E1E80;
+}
+#AddAppointmentInput{
+  width: 98%;
+  height: 30px;
+  background: #F4F4F4;
+  border-radius: 5px;
+  margin-top:5%;
+  margin-left: 1%;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.025);
+}
+::placeholder {
+  text-align: left;
+  font-size: 14px;
+}

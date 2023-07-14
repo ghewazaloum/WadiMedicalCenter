@@ -1,0 +1,47 @@
+.AddDevice{
+    display: flex;
+}
+.NotActivatedaddDeviceorservice{
+    margin-left: 50%;
+    margin-top: 1.8%;
+    background:#000000;
+    border-radius: 26px;
+    border: 0px;
+    height: 30px;
+    width: 50px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.25);
+  }
+  .NotActivatedaddDeviceorservice a{
+    display: block;
+    text-align: center;
+    font-family: 'Tajawal';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFEFEF;
+    text-decoration: none;
+  }
+  .addDeviceorservice{
+    margin-left: 50%;
+    margin-top: 1.8%;
+    background:#7E1E80;
+    border-radius: 26px;
+    border: 0px;
+    height: 30px;
+    width: 50px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.25);
+}
+.addDeviceorservice a{
+    display: block;
+    text-align: center;
+    font-family: 'Tajawal';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFEFEF;
+    text-decoration: none;
+  }
+.addDeviceorservice:hover{
+  background: #ff00d0;
+  border: 1px solid #7E1E80;
+}    

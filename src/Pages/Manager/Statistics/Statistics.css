@@ -1,0 +1,45 @@
+.Statistics{
+    display: flex;
+}
+.rate{
+    gap: 5px;
+    display: flex;
+    margin-top: 2%;
+    margin-left: 5%;
+
+}
+.ratetext{
+    width: 200px;
+    color: #291B27;
+    font-size:14px;
+    font-weight:bold ;
+    font-family: Arial;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.25);
+}
+.ContainerOfMultiRate{
+    padding-left: 1.5%;
+
+
+}
+hr {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #7E1E80;
+
+  }
+  .ContainerOfDoctorAndTech{
+    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+    row-gap: 5px;
+}  
+  .DoctorAndTech{
+    padding-left: 5%;
+     color: var(--color-SecondTableHeading);
+     font-size:var(--size-SecondTableHeading) ;
+     font-weight:bold ;
+     font-family: Arial;
+     text-shadow: 2px 2px rgba(0, 0, 0, 0.25);
+}    

@@ -1,0 +1,134 @@
+.IconBar{
+    width: 80px;
+    height: 100vh;
+    background: #9F488D;
+    display:flex;
+    flex-direction: column;
+}
+/*...........................................*/
+ .LogoIcon{
+   
+    margin-top: 30%;
+    margin-left: 17%;
+
+}
+.LogoIcon svg{  
+
+  transition: transform 0.3s ease;
+  transform: translateX(0px);
+}
+
+.LogoIcon svg:hover {
+  transform: translateX(10px);
+ } 
+ 
+/*...........................................*/
+.DoctorIcon{
+    margin-top: 60%;
+    margin-left: 25%; 
+}
+.DoctorIcon svg {
+    position: relative;
+    transition: transform 0.3s ease;
+    transform: translateX(0px);
+  }
+  
+  .DoctorIcon svg:hover {
+   transform: translateX(10px);
+  }
+ 
+
+.DoctorIcon svg:hover{
+  transform: translateX(10px);
+}
+ 
+    /*transform: scale(1.5);
+    /*justify-content: flex-end;
+     background: #FFACF0;
+    border-radius: 0px 25px 25px 0px;
+    animation: moveToRight 2s ease-in;
+    animation-delay: 1000ms;
+    width: 100px;
+
+    @keyframes moveToRight {
+        from {
+          transform: translateX(0px);
+        }
+       to{
+          transform: translateX(300px);
+        }
+  }
+
+}
+/*...........................................*/
+.DeviceIcon{
+
+    margin-top: 48%;
+    margin-left: 26%; 
+
+}
+.DeviceIcon svg{
+  position: relative;
+  transition: transform 0.3s ease;
+  transform: translateX(0px);
+}
+
+.DeviceIcon svg:hover {
+ transform: translateX(10px);
+}
+/*...........................................*/
+.AddPatientIcon{
+
+    margin-top: 44%;
+    margin-left: 25%; 
+
+}
+.AddPatientIcon svg {
+  position: relative;
+  transition: transform 0.3s ease;
+  transform: translateX(0px);
+}
+
+.AddPatientIcon svg:hover {
+ transform: translateX(10px);
+}
+
+/*...........................................*/
+.LogoutIcon{
+
+  margin-top: 460%;
+  margin-left: 25%; 
+
+}
+.LogoutIcon svg {
+position: relative;
+transition: transform 0.3s ease;
+transform: translateX(0px);
+}
+
+.LogoutIcon svg:hover {
+transform: translateX(10px);
+}
+.active path{
+  stroke:#ff00d0 ;
+  stroke-width: 2.5px;
+  }
+/*............................................*/  
+.LogoutIconManager{
+  margin-top: 590%;
+  margin-left: 25%; 
+
+}
+.LogoutIconManagersvg {
+position: relative;
+transition: transform 0.3s ease;
+transform: translateX(0px);
+}
+
+.LogoutIconManager svg:hover {
+transform: translateX(10px);
+}
+.LogoutIconManager path{
+  stroke:#ff00d0 ;
+  stroke-width: 2.5px;
+  }

@@ -1,0 +1,109 @@
+.AddDoctor{
+    display: flex;
+}
+.appmanagerEditButton{
+    margin-left: 40%;
+    background:#7E1E80;
+    border-radius: 26px;
+    border: 0px;
+    height: 35px;
+    width: 70px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.25);
+  }
+  
+  .appmanagerEditButton a{
+    font-family: 'Tajawal';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFEFEF;
+    text-decoration: none;
+  }
+  .appmanagerEditButton:hover{
+  background: #ff00d0;
+  border: 1px solid #7E1E80;
+  }    
+  .rightSideBarAppManager{
+    border: 1px solid rgba(0, 0, 0, 0.14);
+    width: 85%;
+    margin-left: 7.5%;
+    border-radius: 20px;
+    box-shadow: 2px 1px rgba(0, 0, 0, 0.1);
+    margin-top: 10%;
+    overflow-y: scroll;
+    height: 550px;
+  }
+  .weekDays{
+    margin-top: 5%;
+    height: 9%;
+    max-width: 85%;
+    display: flex;
+    overflow-x: scroll;
+    column-gap: 1px;
+    flex: 100%;
+    margin-left: 7.5%;
+  }
+   .weekday{
+    pointer-events: fill;
+    margin-left: 1%;
+    height: 100%;
+    min-width: 40%;
+    align-items: center;
+    background-color: #f3a0e2;
+    border-radius: 5px;
+    border:0px solid rgb(255, 255, 255);
+    justify-content: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size:14px;
+    font-family: Arial;
+    font-weight: bold;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.25);
+    line-height: 30px;
+  }
+   
+  .weekday:hover{
+  background-color: #ff00cc;
+}
+.Activatedweekday{
+  pointer-events: fill;
+  margin-left: 1%;
+  height: 100%;
+  min-width: 40%;
+  align-items: center;
+  background-color: #f3a0e2;
+  border-radius: 5px;
+  border:0px solid rgb(255, 255, 255);
+  justify-content: center;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size:14px;
+  font-family: Arial;
+  font-weight: bold;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.25);
+  line-height: 30px;
+  background-color: #ff00cc;
+}
+  ::-webkit-scrollbar {
+    width: 0; 
+}
+.NotActivatedaddDoctor{
+  margin-left: 70%;
+  margin-top: 1.8%;
+  background:#000000;
+  border-radius: 26px;
+  border: 0px;
+  height: 30px;
+  width: 50px;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.25);
+}
+.NotActivatedaddDoctor a{
+  display: block;
+  text-align: center;
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFEFEF;
+  text-decoration: none;
+}

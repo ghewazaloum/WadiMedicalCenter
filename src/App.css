@@ -1,0 +1,26 @@
+@media screen and (max-width: 1200px) {
+    body {
+        display:none;
+    }
+}
+@media screen and (min-width: 1200px) {
+    body{
+        background-color: white;
+    }
+}
+.App{
+    display: flex;
+
+}
+:root{
+    --color-TableHeading:#000000;
+    --size-TableHeading:32px;
+    --color-SecondTableHeading:#000000;
+    --size-SecondTableHeading:16px;
+    --color-cells:#000000;
+    --size-cells:16px;
+    
+}
+
+
+  

@@ -1,0 +1,152 @@
+.Patients{
+    display: flex;
+}
+.GenderRadioButtonDiv{
+   padding-left: 4%;
+   color: #291B27;
+   font-size:14px;
+   font-family: Arial;
+   text-shadow: 2px 2px rgba(0, 0, 0, 0.25);
+    
+}
+.RelationshipRadioButtonDiv{
+    padding-left: 4%;
+    color: #291B27;
+    font-size:14px;
+    font-family: Arial;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.25);
+}
+input[type="radio"] {  
+    margin-right: 5px;
+    accent-color: #D46ABF;
+  }
+
+#AddPatientNameInput{
+    width: 98%;
+    height: 30px;
+    background: #F4F4F4;
+    border-radius: 5px;
+    margin-top: 2%;
+    margin-left: 1%;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.025);
+
+}
+#AddPatientPasswordInput{
+    width: 98%;
+    height: 30px;
+    background: #F4F4F4;
+    border-radius: 5px;
+    margin-top: 2%;
+    margin-left: 1%;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.025);
+
+}
+#AddPatientfileNumberInput{
+    width: 98%;
+    height: 30px;
+    background: #F4F4F4;
+    border-radius: 5px;
+    margin-top: 2%;
+    margin-left: 1%;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.025);
+}
+#birthdate{
+    width: 98%;
+    height: 30px;
+    background: #F4F4F4;
+    border-radius: 5px;
+    margin-top: 2%;
+    margin-left: 1%;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.025);
+    padding-left: 13%;
+    color: rgb(138, 136, 136);
+    font-size: 14px;
+}
+#phone{
+    width: 98%;
+    height: 30px;
+    background: #F4F4F4;
+    border-radius: 5px;
+    margin-top: 2%;
+    margin-left: 1%;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.025);
+}
+::placeholder {
+    text-align: left;
+    font-size: 14px;
+  }
+  ::-webkit-datetime-edit-text { padding: 0 0.8rem }
+  ::-webkit-datetime-edit-month-field { text-transform: uppercase; }
+  ::-webkit-datetime-edit-day-field { text-transform: uppercase; }
+  ::-webkit-datetime-edit-year-field { text-transform: uppercase; }
+  ::-webkit-inner-spin-button { display: none; }
+  ::-webkit-calendar-picker-indicator{display:none;}
+
+  
+.AddPatient{
+    margin-left: 20%;
+    margin-top: 10%;
+    background:#7E1E80;
+    border-radius: 26px;
+    border: 0px;
+    height: 35px;
+    width: 120px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.25);
+
+}  
+
+.AddPatient a{
+    display: block;
+    text-align: center;
+    font-family: 'Tajawal';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFEFEF;
+    text-decoration: none;
+  }
+.AddPatient:hover{
+  background: #ff00d0;
+  border: 1px solid #7E1E80;
+}
+.Appointments{
+    background:#7E1E80;
+    border-radius: 26px;
+    border: 0px;
+    height: 35px;
+    width: 120px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.25);
+}
+.Appointments a{
+    font-family: 'Tajawal';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFEFEF;
+    text-decoration: none;
+  }
+.Appointments:hover{
+  background: #ff00d0;
+  border: 1px solid #7E1E80;
+}
+  .EditInPatient{
+    margin-left: 45%;
+    background:#7E1E80;
+    border-radius: 26px;
+    border: 0px;
+    height: 35px;
+    width: 120px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.25);
+  }
+  .EditInPatient a{
+    font-family: 'Tajawal';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFEFEF;
+    text-decoration: none;
+  }
+.EditInPatient:hover{
+  background: #ff00d0;
+  border: 1px solid #7E1E80;
+}

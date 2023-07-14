@@ -1,0 +1,9 @@
+.Xicon:hover path {
+    fill: #fa95fc;
+  }
+.emptyXicon {
+fill:transparent;
+}
+.ClickXicon {
+  fill:#7E1E80;
+  }

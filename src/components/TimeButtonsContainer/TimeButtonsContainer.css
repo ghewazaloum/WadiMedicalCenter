@@ -1,0 +1,16 @@
+.TimeButtonsContainer{
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: fit-content;
+
+}
+.TimeButtonsContainer div{
+
+    width: fit-content;
+    display: flex;
+    column-gap: 4px;
+    margin-top:2% ;
+    margin-bottom:2% ;
+
+}

@@ -1,0 +1,23 @@
+.AddTherapist{
+    display: flex;
+}
+.NotACtivatedaddTherapist{
+    margin-left: 64.5%;
+    margin-top: 1.8%;
+    background:#000000;
+    border-radius: 26px;
+    border: 0px;
+    height: 30px;
+    width: 50px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.25);
+}
+.NotACtivatedaddTherapist a{
+    display: block;
+    text-align: center;
+    font-family: 'Tajawal';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFEFEF;
+    text-decoration: none;
+  }

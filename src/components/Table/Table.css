@@ -1,0 +1,29 @@
+table{  
+        margin: 0.5%;
+        border-collapse: separate;
+        border-spacing:0 5px;;
+        border-top: 4px solid black ;
+    
+}
+
+.FirstRow th{
+    width:60vh;
+    text-align: center;
+    color: var(--color-SecondTableHeading);
+    font-size:var(--size-SecondTableHeading) ;
+    font-weight:bold ;
+    font-family: Arial;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.25);
+
+}
+ td{
+    border-top: 1px solid rgba(0, 0, 0, 0.25);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+    padding-top: 15px; 
+    padding-bottom:15px;
+    width:60vh;
+    text-align: center;
+    font-family: Arial;
+    color: var(--color-cells);
+    font-size:var(--size-cells) ;
+}

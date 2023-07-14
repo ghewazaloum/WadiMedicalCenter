@@ -1,0 +1,11 @@
+.EditDevice{
+    display: flex;
+}
+.ant-switch-checked{
+    background:#ff00cc !important;
+ }
+.switch{
+    transform: scaleY(.8)!important;
+    transform: scaleX(.8)!important;
+    margin-top: 5%;
+} 

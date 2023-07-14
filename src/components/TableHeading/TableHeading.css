@@ -1,0 +1,12 @@
+.TableHeading{
+margin-top: 1%;    
+margin-left: 1%;
+font-family: Arial;
+font-weight: 600;
+font-size: var(--size-TableHeading);
+line-height: 37px;
+color: var(--color-TableHeading);
+text-shadow: 2px 2px rgba(0, 0, 0, 0.25);
+
+
+}
