@@ -1,5 +1,5 @@
 import './Statistics.css'
-import {TableHeading,SideBarDivText,Rate, Graph,SideBarDivHeading} from '../../../components/index'
+import {TableHeading,SideBarDivText,Rate, Graph,SideBarDivHeading, SideBarDiv} from '../../../components/index'
 import {LeftSideBar,ScrollableContent} from '../../../Sections/index'
 import { useState } from 'react';
 import Cookie from "cookie-universal"
@@ -17,7 +17,7 @@ const[cleanless,setcleanless]=useState('');
 const[treatment_od_medical_staff,settreatment_od_medical_staff]=useState('');
 const[reception,setreception]=useState('');
 const[competents_information ,setcompetents_information]=useState('');
-var WeekOrMonth='';
+const [WeekOrMonth,SetWeekOrMonth]=useState('0');
 
 
 const[sections,setSections]=useState(null);
@@ -56,25 +56,23 @@ const handleSection=(val)=>(e)=>{
   if(e.target.className==="TechnicanNotSelected"){
     setSection(val.val);
   e.target.className="TechnicanSelected";
-  var TechnicanNotSelected=document.getElementsByClassName("TechnicanNotSelected");
-  for(var i=0;i<TechnicanNotSelected.length;i++){
-    TechnicanNotSelected[i].style.pointerEvents = "none";
-  }
-  
+
   }else{
     e.target.className="TechnicanNotSelected";
-    var TechnicanNotSelected=document.getElementsByClassName("TechnicanNotSelected");
-    for(var i=0;i<TechnicanNotSelected.length;i++){
-      TechnicanNotSelected[i].style.pointerEvents = "fill";
-    }
+
     setSection('');
   }  
 }
 //fucntion whom put week or month in variables
 const handleWeekOrMonth=(e)=>{
-  WeekOrMonth=e.target.value;
+  SetWeekOrMonth(e.target.value);
+}
+//fucntion whom put week or month in variables
+const viewgraph=(e)=>{
+  e.preventDefault();
   var sectionName=Section;
   console.log(sectionName)
+  console.log(WeekOrMonth)
   if(sectionName!==''){
     if(WeekOrMonth==='0'){
       axios.post(`${BASE_URL}manager/statistics_week`,{
@@ -116,6 +114,7 @@ const handleWeekOrMonth=(e)=>{
   return (
     <div className='Statistics'>
        <LeftSideBar>
+
         <div style={{"marginTop":"10%"}}>
            {/*....................technichan menu trigger.......................*/}
         <div className='menu-trigger'>
@@ -134,7 +133,7 @@ const handleWeekOrMonth=(e)=>{
           {sections!==null?
           sections.map((val,i)=>
           <li key={i} >
-            {val!=="Heart"?
+            {val!==Section?
            <a className='TechnicanNotSelected'onClick={handleSection({val})}>{val}</a>:
            <a className='TechnicanSelected'onClick={handleSection({val})}>{val}</a>}
           </li> 
@@ -154,7 +153,13 @@ const handleWeekOrMonth=(e)=>{
           <input type="radio" value="1"  name="weekormonth" onClick={handleWeekOrMonth} required/> Monthly
           </div>
           </div> 
+          <button className='viewGraph'>
+            <a href='' onClick={viewgraph}>
+             View Graph
+            </a>
+            </button>
           </div>
+
         </LeftSideBar>
         <ScrollableContent>
         <TableHeading>Statistics:</TableHeading>

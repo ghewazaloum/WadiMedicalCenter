@@ -12,20 +12,21 @@ const Xicon = (props) => {
   //console.log(is_doctor,appointment_id);
   //when pressing the Xicon send a request to api
   const handleXicon=(event)=>{
+    const BASE_URL="http://wadimedicalcenter.pythonanywhere.com/";
     var Xicon = event.target;
     let classname=Xicon.className.baseVal;
     if(classname==="emptyXicon" ){
     Xicon.className.baseVal="ClickXicon";
 
 
-    axios.post("http://127.0.0.1:8000/appointment/not_attend_appointment",{
+    axios.post(`${BASE_URL}/appointment/not_attend_appointment`,{
       appointment_id,
       is_doctor,
     },{headers}).then(res=>console.log('posting data',res)).catch(err=>console.log(err))
   }else { 
     Xicon.className.baseVal="emptyXicon";
 
-    axios.post("http://127.0.0.1:8000/appointment/attend_appointment",{
+    axios.post(`${BASE_URL}/appointment/attend_appointment`,{
       appointment_id,
       is_doctor,
     },{headers}).then(res=>console.log('get back of clicking',res)).catch(err=>console.log(err))}

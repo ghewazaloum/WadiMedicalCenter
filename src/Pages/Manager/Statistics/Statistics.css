@@ -43,3 +43,28 @@ hr {
      font-family: Arial;
      text-shadow: 2px 2px rgba(0, 0, 0, 0.25);
 }    
+.viewGraph{
+    margin-left:27%;
+    
+    margin-top: 10%;
+    background:#7E1E80;
+    border-radius: 26px;
+    border: 0px;
+    height: 35px;
+    width: 120px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.25);
+}
+.viewGraph a{
+    display: block;
+    text-align: center;
+    font-family: 'Tajawal';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFEFEF;
+    text-decoration: none;
+  }
+.viewGraph:hover{
+  background: #ff00d0;
+  border: 1px solid #7E1E80;
+}
