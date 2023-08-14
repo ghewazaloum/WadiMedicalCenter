@@ -58,7 +58,7 @@ React.useEffect(()=> {
         if(res.data.result!=="invalid"){
           infoToEdit=res.data;
       if(infoToEdit!=null){
-        console.log()
+        console.log(infoToEdit,"ghewa")
         setDeviceDescription(infoToEdit.deviceDescription);
         setDeviceImage(`${BASE_URL}${infoToEdit.deviceImage}`);
         setactive(infoToEdit.isActive);
@@ -458,7 +458,7 @@ const handleActive=(e)=>{
             <div style={{display:"flex", gap: "60px",height:"35px"}}>
             <SideBarDivText>is Active?</SideBarDivText>
             {(() => {
-      if(active===true)
+      if(active===1)
          return <Switch className='switch'checked onClick={handleActive}/>
      
       else 
@@ -468,7 +468,7 @@ const handleActive=(e)=>{
             </div>
             {/*...................description input..................... */}
             <SideBarDivText>Description:</SideBarDivText>
-            <textarea className='textarea' rows="5" placeholder={description}onChange={handleDeviceDescription}/>
+            <textarea className='textarea' placeholder={DeviceDescription} rows="5" onChange={handleDeviceDescription}/>
             <div className='ContainerOfPickedImage'>
             <div style={{display:"flex", gap: "24px",height:"35px"}}>
             <SideBarDivText>Pick an Image:</SideBarDivText>

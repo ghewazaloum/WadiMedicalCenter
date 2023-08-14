@@ -25,5 +25,6 @@ table{
     text-align: center;
     font-family: Arial;
     color: var(--color-cells);
-    font-size:var(--size-cells) ;
+    font-size:var(--size-cells) !important ;
+    font-weight: 600;
 }

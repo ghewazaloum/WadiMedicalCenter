@@ -35,9 +35,9 @@ const[startHoursIn,setstartHoursIn]=useState('00:00');
 const[endHoursIn,setendHoursIn]=useState('00:00')
 var startdatetime='';
 var enddatetime='';
-const[OldPrice,setOldPrice]=useState('');
-const[NewPrice,setNewPrice]=useState('');
-const[Discount,setDiscount]=useState('');
+const[OldPrice,setOldPrice]=useState('0');
+const[NewPrice,setNewPrice]=useState('0');
+const[Discount,setDiscount]=useState(0);
 
 
 //extracting sections from api 

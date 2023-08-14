@@ -119,11 +119,11 @@ const cookie=Cookie();
       {
    (() => {
        if (empty&&details.password.length===0)
-          return <input id="EmptyTextBox" placeholder='Enter Your Password...' type='text' name='password' onChange={handleChange}/>
+          return <input id="EmptyTextBox" placeholder='Enter Your Password...' type='password' name='password' onChange={handleChange}/>
         if (invalidInput)
-          return <input id="InvalidInputTextBox" placeholder='Enter Your Password...' type='text' name='password' onChange={handleChange}/>
+          return <input id="InvalidInputTextBox" placeholder='Enter Your Password...' type='password' name='password' onChange={handleChange}/>
        else 
-          return  <input id="TextBox" placeholder='Enter Your Password...' type='text' name='password' onChange={handleChange}/>
+          return  <input id="TextBox"autoComplete="new-password" placeholder='Enter Your Password...' type='password' name='password' onChange={handleChange}/>
    })()
 }
       {/*...............................................................*/}
