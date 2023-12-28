@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/WadiMedicalCenter/static/css/main.61303c42.css",
+    "main.js": "/WadiMedicalCenter/static/js/main.0806eb36.js",
+    "static/media/login.jpg": "/WadiMedicalCenter/static/media/login.70d63e3c58c1539f1f5b.jpg",
+    "index.html": "/WadiMedicalCenter/index.html",
+    "main.61303c42.css.map": "/WadiMedicalCenter/static/css/main.61303c42.css.map",
+    "main.0806eb36.js.map": "/WadiMedicalCenter/static/js/main.0806eb36.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.61303c42.css",
+    "static/js/main.0806eb36.js"
+  ]
+}
